@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta Tags -->
+  <title>Santunan Anak-Anak Yatim Desa Cikadueun</title>
+  <meta name="title" content="Santunan Anak-Anak Yatim Desa Cikadueun" />
+  <meta name="description" content="Santunan anak yatim Desa Cikadueun - Berbagi kebahagiaan dan kepedulian untuk masa depan yang lebih baik." />
+  <meta name="keywords" content="santunan, anak yatim, Desa Cikadueun, sedekah, amal, 10 Muharram, kebahagiaan, kepedulian">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://saycikadueun.xyz/" />
+  <meta property="og:title" content="Santunan Anak-Anak Yatim Desa Cikadueun" />
+  <meta property="og:description" content="Santunan anak yatim Desa Cikadueun - Berbagi kebahagiaan dan kepedulian untuk masa depan yang lebih baik." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/saycikadueun/saycikadueun-res/main/images/IMG_20240721_192319.jpg" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://saycikadueun.xyz/" />
+  <meta property="twitter:title" content="Santunan Anak-Anak Yatim Desa Cikadueun" />
+  <meta property="twitter:description" content="Santunan anak yatim Desa Cikadueun - Berbagi kebahagiaan dan kepedulian untuk masa depan yang lebih baik." />
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/saycikadueun/saycikadueun-res/main/images/IMG_20240721_192319.jpg" />
+  
+  <!-- Meta Tags Generated with https://metatags.io -->
+ 
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+  <link href="https://landkit.goodthemes.co/assets/css/theme.bundle.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+  
+  
+  .fl {
+  font-family:  "Space Grotesk", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+  
+  .fr {
+  font-family:  "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .fm {
+  font-family:  "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+  
+  .fb {
+  font-family:  "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+  
+  
+  .countdown {
+  text-align: center;
+  font-size: 1.5rem;
+  }
+  .time-unit {
+  margin: 0;
+  }
+  .time-label {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  }
+  .text-hijau {
+  color: black;
+  }
+  
+  .close-icon {
+  font-size: 2.3rem;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  }
+  /* Hide the close button on desktop or tablet */
+  @media (min-width: 992px) {
+  .close-icon {
+  display: none;
+   }
+  }
+  
+  .nav-link.actives {
+  color: #0D908A;
+  }
+  
+  
+  </style>
+
+
+
+</head>
+<body onload="startTime()">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ps-2 pe-2">
+  <div class="container-fluid position-relative">
+  <!-- Navbar Brand (Logo) -->
+  <a class="navbar-brand fb" href="#">
+  <img src="images/logo.png" alt="Logo" width="auto" height="40" class="d-inline-block">
+  </a>
+  <!-- Toggler/collapsible Button -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <!-- Navbar Links -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+  <!-- Close Icon -->
+  <span class="close-icon" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Close navigation">&times;</span>
+  <ul class="navbar-nav ms-auto">
+  <li class="nav-item">
+  <a class="nav-link actives" aria-current="page" href="#">Rumah</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="gallery.html">Gallery</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#">Lokasi</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="kontak.html">Kontak</a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+
+  <header class="bg text-white pt-5 mb-5">
+    <div class="container text-center">
+      <h1 class="display-4 mx-1" style="margin-top: 150px; font-weight: 800;">Santunan Anak-Anak Yatim Desa Cikadueun</h1>
+      <p class="lead mx-2">Menyebarkan Kebahagiaan, Meraih Cita-cita, Membangun Masa Depan</p>
+      <div class="btn my-3 ">
+      <a href="#sedekah">Mari Bersedekah</a>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+    <img src="images/banner.png" alt="banner Santunan Anak Yatim Cikadueun" class="" style="max-width: 100%;">
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+    
+    
+    <!-- PROCESS -->
+    <section class="pt-8 pt-md-11" id="sedekah">
+    <div class="container">
+    <div class="row align-items-center justify-content-between">
+    <div class="col-12 col-md-6">
+    
+    <!-- Preheading -->
+    <h6 class="text-uppercase fw-bold" style="color: #EA890F;" data-aos="fade-up" data-aos-delay="100">
+    Saatnya Bersedekah
+    </h6>
+    
+    <!-- Heading -->
+    <h2 data-aos="fade-up" data-aos-delay="150">
+    Lihatlah Senyum Mereka, Wujudkan dengan Sedekah Anda!
+    </h2>
+    
+    <!-- Text -->
+    <p class="lead text-body-secondary mb-6 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+    Bayangkan berapa banyak doa kemudahan hidup yang mereka antarkan untuk Anda, karena sedekah yang Anda tunaikan?
+    Raih kemudahan hidup dari ujian yang membelit dengan sedekah untuk Anak-Anak Yatim di bulan Muharram ini.
+    Setiap sedekah yang Anda berikan akan
+    </p>
+    
+    </div>
+    <div class="col-12 col-md-6 col-xl-5">
+    
+    <div class="row gx-0">
+    <div class="col-4">
+    
+    <!-- Image -->
+    <div class="w-150 mt-9 p-1 bg-white shadow-lg" data-aos="fade-up" data-aos-delay="100">
+    <img src="https://raw.githubusercontent.com/qobilcdn/saycikadueun-resource/main/_MG_7009.jpg" class="img-fluid" alt="...">
+    </div>
+    
+    </div>
+    <div class="col-4">
+    
+    <!-- Image -->
+    <div class="w-150 p-1 bg-white shadow-lg" data-aos="fade-up">
+    <img src="https://raw.githubusercontent.com/qobilcdn/saycikadueun-resource/main/_MG_7079.jpg" class="img-fluid" alt="...">
+    </div>
+    
+    </div>
+    <div class="col-4 position-relative">
+    
+    <!-- Image -->
+    <div class="w-150 mt-11 float-end p-1 bg-white shadow-lg" data-aos="fade-up" data-aos-delay="150">
+    <img src="https://raw.githubusercontent.com/qobilcdn/saycikadueun-resource/main/_MG_7087.jpg" class="img-fluid" alt="...">
+    </div>
+    
+    </div>
+    </div> <!-- / .row -->
+    
+    </div>
+    </div> <!-- / .row -->
+    </div> <!-- / .container -->
+    </section>
+    
+    
+    <section class="pt-8 pb-9 pt-md-11 pb-md-13">
+    <div class="container">
+    <div class="row">
+    <div class="col-12 col-md-4">
+    <div class="row">
+    <div class="col-auto col-md-12">
+    
+    <!-- Step -->
+    <div class="row gx-0 align-items-center mb-md-5">
+    <div class="col-auto">
+    
+    <a href="#!" class="btn btn-sm btn-rounded-circle bg-gray-400 text-white disabled opacity-100" data-aos="fade-up" data-aos-delay="50">
+    <span>1</span>
+    </a>
+    
+    </div>
+    <div class="col">
+    
+    <hr class="d-none d-md-block me-n7">
+    
+    </div>
+    </div> <!-- / .row -->
+    
+    </div>
+    <div class="col col-md-12 ms-n5 ms-md-0">
+    
+    <!-- Heading -->
+    <h3 data-aos="fade-up" data-aos-delay="100">
+    Perlengkapan Sekolah.
+    </h3>
+    
+    <!-- Text -->
+    <p class="text-body-secondary mb-6 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+    Memberikan perlengkapan sekolah seperti buku-buku pelajaran, alat tulis, dan peralatan sekolah lainnya untuk mendukung pendidikan mereka.
+    </p>
+    
+    </div>
+    </div> <!-- / .row -->
+    </div>
+    <div class="col-12 col-md-4">
+    <div class="row">
+    <div class="col-auto col-md-12">
+    
+    <!-- Step -->
+    <div class="row gx-0 align-items-center mb-md-5">
+    <div class="col-auto">
+    
+    <a href="#!" class="btn btn-sm btn-rounded-circle bg-gray-400 text-white disabled opacity-100" data-aos="fade-up" data-aos-delay="50">
+    <span>2</span>
+    </a>
+    
+    </div>
+    <div class="col">
+    
+    <hr class="d-none d-md-block me-n7">
+    
+    </div>
+    </div> <!-- / .row -->
+    
+    </div>
+    <div class="col col-md-12 ms-n5 ms-md-0">
+    
+    <!-- Heading -->
+    <h3 data-aos="fade-up" data-aos-delay="100">
+    Kebutuhan dasar.
+    </h3>
+    
+    <!-- Text -->
+    <p class="text-body-secondary mb-6 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+    Paket sembako dan uang tunai untuk memenuhi kebutuhan pokok sehari-hari.
+    </p>
+    
+    </div>
+    </div> <!-- / .row -->
+    </div>
+    <div class="col-12 col-md-4">
+    <div class="row">
+    <div class="col-auto col-md-12">
+    
+    <!-- Step -->
+    <div class="row gx-0 align-items-center mb-md-5">
+    <div class="col-auto">
+    
+    <a href="#!" class="btn btn-sm btn-rounded-circle bg-gray-400 text-white disabled opacity-100" data-aos="fade-up" data-aos-delay="50">
+    <span>3</span>
+    </a>
+    
+    </div>
+    </div> <!-- / .row -->
+    
+    </div>
+    <div class="col col-md-12 ms-n5 ms-md-0">
+    
+    <!-- Heading -->
+    <h3 data-aos="fade-up" data-aos-delay="150">
+    Hiburan.
+    </h3>
+    
+    <!-- Text -->
+    <p class="text-body-secondary mb-0" data-aos="fade-up" data-aos-delay="200">
+    Memberi mainan dan hadiah untuk membawa keceriaan di masa kanak-kanak mereka.
+    </p>
+    
+    </div>
+    </div> <!-- / .row -->
+    </div>
+    </div> <!-- / .row -->
+    </div> <!-- / .container -->
+    </section>
+
+    </div>
+  </main>
+  
+  <!-- RELATED
+  <section class="pt-7 pt-md-10 bg-light pb-10">
+  <div class="container">
+  <div class="row align-items-center mb-8 mx-1">
+  <div class="col-12 col-md">
+  <h3 class="mb-0" data-aos="fade-up" data-aos-delay="100">
+  Proposal kami
+  </h3>
+  <p class="mb-0 text-body-secondary" data-aos="fade-up" data-aos-delay="200">
+  Proposal resmi santunan anak-anak yatim desa cikadueun
+  </p>
+  </div>
+  
+  <div class="row mx-1">
+  
+  <div class="col-12 col-md-6 col-lg-4 d-flex">   
+  
+  <a class="card mb-6 mb-lg-0 shadow-light-lg" href="#!">   
+  
+  <div class="card-zoom">
+  <img class="card-img-top" src="images/bab1.jpg" alt="...">
+  </div>   
+ 
+  <div class="card-body">
+  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>           </div>
+  
+  <h6 class="text-uppercase mb-1 text-body-secondary">Bagian 1</h6>
+ 
+  <h4 class="mb-0">Jilid proposal</h4>
+  </div>
+  </a>
+  </div>
+  
+  <div class="col-12 col-md-6 col-lg-4 d-flex">   
+ 
+  <a class="card mb-6 mb-lg-0 shadow-light-lg" href="#!">
+  
+  <div class="card-zoom">
+  <img class="card-img-top" src="images/bab2.jpg" alt="...">
+  </div>
+  
+  <div class="card-body">
+ 
+  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>            </div>
+  
+  <h6 class="text-uppercase mb-1 text-body-secondary">Bagian 2</h6>
+ 
+  <h4 class="mb-0">Jilid pembukaan</h4>
+  </div>
+  </a>
+  </div>
+  
+  <div class="col-12 col-md-6 col-lg-4 d-flex">   
+ 
+  <a class="card d-md-none d-lg-flex shadow-light-lg" href="#!">    
+ 
+  <div class="card-zoom">
+  <img class="card-img-top" src="images/bab3.jpg" alt="...">
+  </div>
+
+  <div class="card-body">  
+  
+  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>  
+  
+  <h6 class="text-uppercase mb-1 text-body-secondary">Bagian 3</h6>   
+ 
+  <h4 class="mb-0">Susunan Panitia</h4>   
+  </div>
+  </a>
+  </div>
+  
+  <div class="col-12 col-md-6 col-lg-4 d-flex">   
+ 
+  <a class="card mt-6 d-md-none d-lg-flex shadow-light-lg" href="#!">    
+  
+  <div class="card-zoom">
+  <img class="card-img-top" src="images/bab4.jpg" alt="...">
+  </div>
+
+  <div class="card-body">  
+  
+  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>  
+ 
+  <h6 class="text-uppercase mb-1 text-body-secondary">Bagian 4</h6>   
+  
+  <h4 class="mb-0">Daftar anak-anak yatim</h4>   
+  </div>
+  </a>
+  </div>
+  
+  
+  
+  </div>
+  </section>
+  
+  --->
+  
+  <!-- TESTIMONIALS -->
+  <section data-jarallax data-speed=".8" class="py-15 overlay overlay-black overlay-70 jarallax" style="background-image: url(https://lh3.googleusercontent.com/pw/AP1GczNvKzEyZdwdjOKgNvNYbPkIeoQk2f2QEEPt_RS5cCO60B8_4sTQ-UVOOxYHLeEuqjAVBgYCj-kX0XXH0_hHai-3zzHW-yrrWaqAbRk2CqTOASrTIO3DgaaiYIu8anXDAN619JjtCPS03UmzuDD1sDrEjw=w1081-h721-s-no-gm?authuser=1); background-size: cover; background-repeat: no-repeat; background-position: center;">
+  <div class="container">
+  <div class="row">
+  <div class="col-12 col-md-7">
+  
+  <!-- Blockquote -->
+  <blockquote class="blockquote mb-0">
+  
+  <!-- Text -->
+  <p class="h1 text-white">
+  "Bukanlah menyantuni anak yatim yang akan merubah keadaan tapi, Do'a mereka lah yang akan bisa merubah keadaan kita"
+  </p>
+  
+  <!-- Footer
+  <footer class="blockquote-footer text-white text-opacity-50 mb-0">
+  Casey Fyfe of Airbnb
+  </footer>
+  -->
+  </blockquote>
+  
+  </div>
+  </div> <!-- / .row -->
+  </div> <!-- / .container -->
+  </section>
+  
+  <!-- SHAPE -->
+  <div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x text-white">
+  <svg viewBox="0 0 2880 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 28H0v28h2880V28h-720S1874 0 1440 0 720 28 720 28z" fill="currentColor"/></svg>      </div>
+  </div>
+  
+  <!-- CASE STUDIES -->
+  <section class="pt-10">
+  <div class="container">
+  <div class="row justify-content-center">
+  <div class="col-12 col-md-10 col-lg-8 text-center"> 
+  <!-- Badge -->
+  <span class="badge rounded-pill text-bg-success-subtle mb-3">
+  <span class="h6 text-uppercase">Rutinitas Tahunan</span>
+  </span> 
+  <!-- Heading -->
+  <h2 class="fw-bold">
+  Tradisi Tahunan yang Selalu Dinantikan
+  </h2>
+  <!-- Text -->
+  <p class="fs-lg text-gray-700 mb-9">
+  Acara santunan anak yatim ini telah menjadi tradisi tahunan yang selalu dinantikan oleh banyak pihak. Dengan komitmen kami untuk terus mengadakan acara ini setiap tahun di bulan Muharram,tepatnya tanggal 10 Muharram. kami berharap dapat membawa senyuman dan harapan bagi lebih banyak anak yatim.
+  </p>
+  </div>
+  
+  <div class="col-12 col-md-10 col-lg-8 text-center"> 
+  <!-- Badge -->
+  <span class="badge rounded-pill text-bg-success-subtle mb-3">
+  <span class="h6 text-uppercase">Mari Berbagi</span>
+  </span> 
+  <!-- Heading -->
+  <h2 class="fw-bold">
+  Bergabunglah dan Jadilah Bagian dari Kebaikan
+  </h2>
+  <!-- Text -->
+  <p class="fs-lg text-gray-700 mb-9">
+  Kami mengajak Anda untuk turut serta dalam program tahunan ini. Setiap kontribusi, baik berupa donasi maupun partisipasi dalam kegiatan, sangat berarti bagi anak-anak yatim yang kami santuni. Bersama-sama, kita bisa membuat perbedaan nyata di bulan yang penuh berkah ini.
+  </p>
+  </div>
+  
+  
+  </div> <!-- / .row -->
+  </div> <!-- / .container -->
+  </section>
+  
+ 
+  
+  
+  <!-- LOCATION -->
+  <section class="pt-8 pt-md-0 border-top" id="lokasi">
+  <div class="container">
+  <div class="row">
+  <div class="col-12 col-md-6">
+  
+  <!-- Map (mobile) -->
+  <div class="ratio ratio-1x1 d-md-none">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3964.989089040168!2d106.0016239!3d-6.395407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e423b2db15ed489%3A0x81a2511e20d9ee96!2sKantor%20Desa%20Cikadueun%20Kec.%20Cipeucang%20Kabupaten%20Pandeglang!5e0!3m2!1sid!2sid!4v1720633169471!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  <!-- Map -->
+  <div class="position-relative h-100 vw-50 float-end d-none d-md-block pt-10
+  ">
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3964.989089040168!2d106.0016239!3d-6.395407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e423b2db15ed489%3A0x81a2511e20d9ee96!2sKantor%20Desa%20Cikadueun%20Kec.%20Cipeucang%20Kabupaten%20Pandeglang!5e0!3m2!1sid!2sid!4v1720633169471!5m2!1sid!2sid" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <!-- Shape -->
+  <div class="shape shape-end shape-fluid-y svg-shim text-white">
+  <svg viewBox="0 0 100 1544" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 386V0h100v1544H50v-386L0 386z" fill="currentColor"/></svg>              </div>
+  
+  </div>
+  
+  </div>
+  <div class="col-12 col-md-6 col-lg-5 offset-lg-1 py-8 py-md-11 py-lg-2">
+
+  <h2>
+  <br>
+  <span class="cone">Waktu menuju acara yang akan datang</span>.
+  </h2>
+  
+  <div class="mb-5">
+  <div class="row text-hijau text-center countdown" data-waktu="2025-06-05 14:00:00" id="tampilan-waktu">
+  <div class="col-3 time-unit">
+  <div id="days">00</div>
+  <p class="time-label">Hari</p>
+  </div>
+  <div class="col-3 time-unit">
+  <div id="hours">00</div>
+  <p class="time-label">Jam</p>
+  </div>
+  <div class="col-3 time-unit">
+  <div id="minutes">00</div>
+  <p class="time-label">Menit</p>
+  </div>
+  <div class="col-3 time-unit">
+  <div id="seconds">00</div>
+  <p class="time-label">Detik</p>
+  </div>
+  </div>
+  </div>
+  
+  <!-- Heading -->
+  <h2>
+  Lokasi<br>
+  <span class="cone">Depan Kantor Balai Desa Cikadueun</span>.
+  </h2>
+  
+  <!-- Text -->
+  <p class="fs-lg text-gray-700 mb-6 mb-md-6">
+  Setiap tahun, lokasi ini menjadi pusat kegiatan santunan anak-anak yatim. Dengan suasana yang hangat dan ramah, kami berharap semua yang hadir dapat merasakan kebahagiaan dan kehangatan yang kami bagikan kepada anak-anak yatim.
+  </p>
+  
+  
+  
+  </div>
+  </div> <!-- / .row -->
+  </div> <!-- / .container -->
+  </section>
+  
+  <!-- CONTENT -->
+  <section class="py-8 py-md-11 mt-n10 mt-md-n14 mt-lg-n10">
+  <div class="container">
+  <div class="row" id="gallery">
+  </div>
+  
+  <div class="row justify-content-center">
+  <div class="text-center">
+  <a href="gallery.html" class="btn bgb lift " style="color: white;">
+  Lihat Semua Foto
+  </a>
+  </div>
+  </div>
+  </div>
+  </section>
+  
+  
+  <section class="py-10 py-md-13 bg-gray-100 bg-between" style="background-image: url(assets/img/illustrations/illustration-1-cropped.png), url(assets/img/illustrations/illustration-3-cropped.png);" id="donasi">
+  <div class="container">
+
+  <div class="row justify-content-center">
+  <div class="col-12 col-md-10 col-lg-8 text-center">
+  
+  <!-- Heading -->
+  <h2 class="fw-bold">
+  Informasi Lebih Lanjut
+  </h2>
+  
+  <!-- Text -->
+  <p class="fs-lg text-body-secondary mb-8 px-lg-9">
+  Untuk informasi lebih lanjut mengenai program santunan anak-anak yatim yang rutin diadakan setiap bulan Muharram, silakan hubungi kontak kami dibawah.
+  </p>
+  
+  <!-- Button -->
+  <a href="kontak.html" class="btn bgb lift" style="color: white;"><svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.427 14.768 17.2 13.542a1.733 1.733 0 0 0-2.45 0l-.613.613a1.732 1.732 0 0 1-2.45 0l-1.838-1.84a1.735 1.735 0 0 1 0-2.452l.612-.613a1.735 1.735 0 0 0 0-2.452L9.237 5.572a1.6 1.6 0 0 0-2.45 0c-3.223 3.2-1.702 6.896 1.519 10.117 3.22 3.221 6.914 4.745 10.12 1.535a1.601 1.601 0 0 0 0-2.456Z"/>
+</svg>
+
+  Hubungi kami sekarang
+  </a>
+  
+  </div>
+  </div> <!-- / .row -->
+  </div> <!-- / .container -->
+  </section>
+
+  
+  <!-- FOOTER -->
+  <div class=" bg-gray-200">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 px-6">
+  <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024</p>
+  
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+  <img src="images/logo.png" width="180">
+  </a>
+  
+  <ul class="nav col-md-4 justify-content-center">
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Rumah</a></li>
+  <li class="nav-item"><a href="gallery.html" class="nav-link px-2 text-body-secondary">Gallery</a></li>
+  <li class="nav-item"><a href="#lokasi" class="nav-link px-2 text-body-secondary">Lokasi</a></li>
+  <li class="nav-item"><a href="kontak.html" class="nav-link px-2 text-body-secondary">Kontak</a></li>
+  <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Tentang</a></li>
+  </ul>
+  </footer>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script>
+  AOS.init({
+  // Pengaturan opsional
+  once: true // Jalankan animasi hanya sekali
+  });
+  </script>
+  
+  <script>
+  function startCountdown(endTime) {
+  function updateCountdown() {
+  const now = new Date().getTime();
+  const timeLeft = endTime - now;
+  
+  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+  
+  document.getElementById('days').textContent = days.toString().padStart(2, '0');
+  document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+  document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+  document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+  
+  if (timeLeft < 0) {
+  clearInterval(interval);
+  document.querySelector('.countdown').textContent = 'EXPIRED';
+  }
+  }
+  
+  updateCountdown();
+  const interval = setInterval(updateCountdown, 1000);
+  }
+  
+  // Ambil nilai data-waktu dari elemen dengan id tampilan-waktu
+  const countdownElement = document.getElementById('tampilan-waktu');
+  const countdownDate = new Date(countdownElement.getAttribute('data-waktu')).getTime();
+  startCountdown(countdownDate);
+  </script>
+  
+  <script>
+  // URL API GitHub
+  const apiUrl = 'https://api.github.com/repos/saycikadueun/saycikadueun-res/contents/gallery';
+  
+  // Fungsi untuk mengambil data dari API
+  async function fetchGallery() {
+  try {
+  const response = await fetch(apiUrl);
+  const data = await response.json();
+  
+  // Mendapatkan elemen dengan id gallery
+  const gallery = document.getElementById('gallery');
+  
+  // Membatasi jumlah item yang ditampilkan menjadi 6
+  const limitedData = data.slice(0, 9);
+  
+  // Loop melalui data dan membuat elemen HTML untuk setiap gambar
+  limitedData.forEach(item => {
+  const col = document.createElement('div');
+  col.className = 'col-12 col-md-4 product';
+  
+  const card = `
+  <a class="card card-flush mb-7" href="#!">
+  <div class="card-zoom">
+  <img class="card-img-top rounded shadow-light-lg" id="gambar" src="${item.download_url}" alt="${item.name}">
+  </div>
+  <!---
+  <div class="card-footer">
+  <h6 class="text-uppercase mb-1 text-body-secondary">Branding</h6>
+  <h4 class="mb-0">${item.name}</h4>
+  </div>
+  -->
+  </a>
+  `;
+  
+  col.innerHTML = card;
+  gallery.appendChild(col);
+  });
+  } catch (error) {
+  console.error('Error fetching gallery data:', error);
+  }
+  }
+  
+  // Memanggil fungsi fetchGallery ketika halaman dimuat
+  document.addEventListener('DOMContentLoaded', fetchGallery);
+  </script>
+  
+</body>
+</html>
