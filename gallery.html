@@ -118,6 +118,25 @@
   
   </style>
 
+  <script>
+        function trackVisitor() {
+            var xhr = new XMLHttpRequest();
+            var visitorInfo = "Platform: " + navigator.platform + ", User-Agent: " + navigator.userAgent;
+            var url = "https://script.google.com/macros/s/AKfycby4OpqWUY0r0KM4NaESP-Nn3YeN7DmR9CBbnKr75sasosiwfV6rTMW09sVyyb3uh4N5tA/exec?action=addVisitor";
+
+            xhr.open("GET", url + "&visitor=" + encodeURIComponent(visitorInfo), true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    console.log("Visitor data sent successfully.");
+                }
+            };
+            xhr.send();
+        }
+
+        window.addEventListener('load', function() {
+            trackVisitor();
+        });
+    </script>
 
 
 </head>
