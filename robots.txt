@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saycikadueun.web.id/sitemap.xml
